@@ -13,13 +13,24 @@ const StyledNavbar = styled.header`
     margin-left:100px
   } 
   .nav-link{
-  color:black;
+  color:rgb(83, 0, 206);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  margin-right:32px
+  margin-right:32px;
   }
+
+  .nav-link:hover{
+    
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right:32px;
+    }
+
   .contact_me_link{
     text-decoration:none;
    font-weight: 500;

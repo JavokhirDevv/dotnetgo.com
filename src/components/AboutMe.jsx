@@ -5,28 +5,30 @@ import bg from '../images/red.png';
 // data
 import { aboutData, images } from "../data";
 const StyledHero = styled.header`
+
 .about_sec{
   display:flex;
 }
   .about_title {
     font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 46px;
-color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #fff;
   } 
+
   h4{
     font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 40px;  
-background: linear-gradient(90.19deg, #5300CE -2.98%, #FFB802 103.18%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;  
+    background: linear-gradient(90.19deg, #5300CE -2.98%, #FFB802 103.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
   }
 h6{
     width: 625px;

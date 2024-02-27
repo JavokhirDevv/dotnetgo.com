@@ -6,22 +6,25 @@ import bg from '../images/blue.png';
 // data
 import { specialLinks, HeroData, images } from "../data";
 const StyledHero = styled.header`
+
   .hero_title {
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
     line-height: 89px;
-    color: #000000;
+    color: #000;
     margin-top:80px
   } 
+
   .hero_bg{
     position:absolute;
     top:0;
     left:0;
     width: 587px;
-   height: 587px;
-   z-index:-100;
+    height: 587px;
+    z-index:-100;
   }
+
   h4{
     width: 625px;
     height: 62px;
@@ -30,19 +33,24 @@ const StyledHero = styled.header`
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
-    color: #000000;
+    // color: #000000;
+    background: linear-gradient(90.19deg, rgb(83, 0, 206) -2.98%, rgb(255, 184, 2) 103.18%)text;
+    -webkit-text-fill-color: transparent;
     margin-top:60px
   }
+
 h6{
     width: 625px;
     height: 64px;
     font-family: 'Space Grotesk';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1rem;
     line-height: 32px;
-    margin-top:32px
+    margin-top:32px;
+    color: #fff;
   }
+
   .follow_title{
     font-style: normal;
     font-weight: 700;
@@ -51,6 +59,7 @@ h6{
     color: #000000;
     margin-right:25px;
   }
+
   .link_icons{
     color:#000;
     font-size:1rem;
@@ -58,23 +67,28 @@ h6{
     margin-bottom:14px;
     transition:all 0.2s;
   }
+
   .link_icons:hover{
     color:#5300CE
   }
+
   .draw{
-width: 80px;
-height: 2px;
-background: #000000;
-margin-right:18px;
+    width: 80px;
+    height: 2px;
+    background: #000000;
+    margin-right:18px;
   }
+
   .icon_cont{
     margin-top:152px
   }
+
   .hero_img{
     width: 449.43px;
     height: 449.43px;
     border-radius: 500px;
   }
+
   .img_cont{
     border-radius:50%;
     width: 470px;
@@ -86,9 +100,11 @@ margin-right:18px;
     align-items: center;
     background: linear-gradient(to bottom, #6C26D4, #DDCFF2);
   }
+
   .hero_sec{
     display:flex;
     }
+    
   @media screen and (max-width: 1331px) {
     .hero_title{
     font-size: 42px;

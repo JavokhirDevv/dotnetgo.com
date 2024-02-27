@@ -6,6 +6,7 @@ import comp2 from "./images/comp2.svg";
 import comp3 from "./images/comp3.png";
 import comp4 from "./images/comp4.png";
 import comp5 from "./images/comp5.png";
+import comp6 from './images/comp6.png';
 import tech1 from "./images/tech1.jpg";
 import tech2 from "./images/tech2.jpg";
 import tech3 from "./images/tech3.jpg";
@@ -25,13 +26,13 @@ export const images = {
 // hero section data
 export const HeroData = {
   name: "Mukhammadkarim Tukhtaboyev",
-  profession: "Microsoft MVP | Software Engineer @ BARQ App | Lead Teacher",
-  description: "Microsoft MVP, Software Engineer, Instructor, Singer, Founder of .NET Community in Uzbekistan, Ibn Sina Enthusiast."
+  profession: "Microsoft MVP | Senior Software Engineer @ Exadel | Lead Teacher",
+  description: "Microsoft MVP, Senior Software Engineer, Lead of Microsoft Community in Uzbekistan, Founder and CEO of Sado24, Founder of .NET Community in Uzbekistan, Ibn Sina Enthusiast."
 }
 // about section data
 export const aboutData = {
-  title: "Microsoft MVP | Software Engineer @ BARQ App | Lead Teacher",
-  description: "Microsoft MVP, Software Engineer, Instructor, Singer, Founder of .NET Community in Uzbekistan, Ibn Sina Enthusiast. The biggest programmer ever is the Allah. He created software called 'Life' and it is the most perfect software. Every part of this software works on realtime communication. This software also has an instruction - Koran. A person, who knows Koran will never struggle using the software 'Life'. In other words, life itself is like a programming. The life i told about has a lots of paths, but goals are the same. And I am on the best of these paths. So in .NET ..."
+  title: "Microsoft MVP | Senior Software Engineer @ Exadel | Lead Teacher",
+  description: "Microsoft MVP, Senior Software Engineer, Lead of Microsoft Community in Uzbekistan, Founder and CEO of Sado24, Founder of .NET Community in Uzbekistan, Ibn Sina Enthusiast. My journey as a software engineer has been filled with diverse projects and challenges, each contributing to my growth and expertise in the field. From developing enterprise-level applications to building consumer-facing products, I've had the opportunity to work across various industries and domains, honing my skills and expanding my knowledge along the way."
 }
 // interview section data
 export const interviewData = [
@@ -77,6 +78,11 @@ export const companyData = [
     id: 5,
     name: "uzCard",
     link: "https://uzcard.uz/ru"
+  },
+  {
+    id: 6,
+    name: "Exadel",
+    link: "https://exadel.com"
   },
 ];
 
